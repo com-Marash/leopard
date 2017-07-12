@@ -1,4 +1,4 @@
-package marash.com.orderreceiver.service;
+package marash.com.orderreceiver.request;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -21,7 +21,7 @@ import java.util.Map;
 public class GsonRequest<T> extends Request<T> {
     private final Gson gson = new Gson();
     private final Class<T> clazz;
-    private final Map<String, String> headers;
+    protected final Map<String, String> headers;
     private final Response.Listener<T> listener;
 
     /**

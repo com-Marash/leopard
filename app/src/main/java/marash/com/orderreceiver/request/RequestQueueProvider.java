@@ -1,4 +1,4 @@
-package marash.com.orderreceiver.service;
+package marash.com.orderreceiver.request;
 
 import android.content.Context;
 import android.graphics.Bitmap;
